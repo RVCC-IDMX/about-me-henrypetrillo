@@ -15,12 +15,12 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #4757A1;
     font-size: 15pt;
-    color: white;
+    color: #B89B44;
 }
 
 #hero {
     text-align: center;
-    color: white;
+    color: #B89B44;
     padding: 10px;
     border: 2px solid #B89B44;
     border-radius: 20px;
@@ -29,6 +29,26 @@ body {
 #hero img {
     width: 350px;
     height: 350px;
+    max-width: 100%;
+}
+
+#hobbies ul li:nth-child(odd) {
+    color: black;
+}
+
+#gallery {
+    border:2px solid #B89B44;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align: center;
+    
 }
 
 footer {
