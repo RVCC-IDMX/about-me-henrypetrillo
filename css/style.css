@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h2 {
+    margin: .1em;
+}
+
+#bio {
+    text-align: center;
+}
+
 body {
     background-color: #4757A1;
     font-size: 15pt;
@@ -34,6 +42,12 @@ body {
     width: 350px;
     height: 350px;
     max-width: 100%;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hobbies ul li:nth-child(odd) {
@@ -61,4 +75,18 @@ footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 5pt;
     color: #4757A1;
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
