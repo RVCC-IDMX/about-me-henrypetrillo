@@ -96,6 +96,62 @@
             </div>
         </section>
 
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <!-- Name Input -->
+                     <label for="name">Name:</label>
+                     <input type="text" id="name" name="name" required>
+                     <br><br>
+
+                    <!-- Email Input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <!-- Phone Input -->
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br><br>
+
+                    <!-- Phone Type Select -->
+                    <label for="phone-type">Phone Type:</label>
+                    <select id="phone-type" name="phone-type">
+                        <option value="">--Select Type--</option>
+                        <option value="mobile">Mobile</option>
+                        <option value="home">Home</option>
+                        <option value="work">Work</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Message Textarea -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="8"></textarea>
+                    <br><br>
+
+                    <!-- Follow-up Radio Buttons -->
+                    <label>Would you like a follow-up?</label>
+                    <ul style="list-style-type:none; padding:0;">
+                        <li>
+                            <input type="radio" id="followup-yes" name="followup" value="yes">
+                            <label for="followup-yes">Yes</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="followup-no" name="followup" value="no">
+                            <label for="followup-no">No</label>
+                        </li>
+                    </ul>
+                    <br>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+
         <article id="lit">
             <h2> Lorem Ipsum </h2>
             <div>
