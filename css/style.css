@@ -21,6 +21,12 @@ h2 {
 }
 
 #bio {
+    color: #21284A;
+    background-color: #F5BE1B;
+    border: 2px solid #21284A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 2em;
     text-align: center;
 }
 
@@ -32,10 +38,12 @@ body {
 
 #hero {
     text-align: center;
-    color: #B89B44;
+    color: #21284A;
+    background-color: #F5BE1B;
     padding: 10px;
-    border: 2px solid #B89B44;
+    border: 2px solid #21284A;
     border-radius: 20px;
+    margin-bottom: 2em;
 }
 
 #hero img {
@@ -45,17 +53,25 @@ body {
 }
 
 #hobbies {
+    color: #21284A;
+    background-color: #F5BE1B;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid #21284A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 2em;
 }
 
-#hobbies ul li:nth-child(odd) {
-    color: black;
+#hobbies h2 {
+    color: #21284A;
 }
 
-#gallery, #lit {
-    border:2px solid #B89B44;
+#gallery, #video, #lit {
+    color:#21284A;
+    background-color: #F5BE1B;
+    border:2px solid #21284A;
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 2em;
@@ -68,6 +84,15 @@ body {
 #gallery figure {
     text-align: center;
     
+}
+
+#contact {
+    color:#21284A;
+    background-color: #F5BE1B;
+    border:2px solid #21284A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 2em;
 }
 
 footer {
@@ -105,7 +130,7 @@ footer {
 
 /* Contact Form Styling */
 #contactForm fieldset {
-    border: 4px solid #21284A;
+    border: 2px solid #21284A;
     border-radius: 8px;
     background-color: #B89B44;
     padding: 20px;
