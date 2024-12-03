@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <!-- The body tag is what is shown to a visitor. -->
@@ -17,8 +18,20 @@
 
     <!-- The header shows logo and page title. -->
     <header>
-        <img src="img/bob.svg" alt="A blue origami bird">
-        <h1>Web Dev I</h1>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/bob.svg" alt="A blue origami bird">
+                <h1>Web Dev I</h1>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            <div>
+        </nav>
     </header>
 
     <!-- The main envelops important page content. -->
@@ -57,15 +70,12 @@
             </ul>    
         </section>
 
+        <!-- Gallery Section -->
+
         <section id="gallery">
             <h2>My Gallery</h2>
-            <hr color="#B89B44">
-            <figure>
-                <img src="img/yellowstone-640w.jpg" alt="A scene from Yellowstone National Park.">
-                <figcaption>
-                    Yellowstone National Park
-                </figcaption>
-            </figure>
+            
+            <!-- Picture 1 -->
 
             <hr color="#B89B44">
             <figure>
@@ -74,6 +84,18 @@
                     Yellowstone National Park
                 </figcaption>
             </figure>
+
+            <!-- Picture 2 -->
+
+            <hr color="#B89B44">
+            <figure>
+                <img src="img/yellowstone-640w.jpg" alt="A scene from Yellowstone National Park.">
+                <figcaption>
+                    Yellowstone National Park
+                </figcaption>
+            </figure>
+
+            <!-- Picture 3 -->
 
             <hr color="#B89B44">
             <figure>
@@ -95,6 +117,19 @@
                     ></iframe>
             </div>
         </section>
+
+        <!-- Blog Section -->
+
+        <article id="lit">
+            <h2> Lorem Ipsum </h2>
+            <div>
+                <p>Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognized it for one that he had himself presented many years before to Henry Jekyll.</p>
+                <p>“Is this Mr. Hyde a person of small stature?” he inquired.</p>
+                <p>“Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.</p>
+            </div>  
+        </article>
+
+        <!-- Contact Form Section -->
 
         <section id="contact">
             <h2>Contact Us</h2>
@@ -132,7 +167,7 @@
                     <textarea id="message" name="message" rows="8"></textarea>
                     <br><br>
 
-                    <!-- Follow-up Radio Buttons -->
+                    <!-- Follow-up Buttons -->
                     <label>Would you like a follow-up?</label>
                     <ul style="list-style-type:none; padding:0;">
                         <li>
@@ -151,16 +186,6 @@
                 </fieldset>
             </form>
         </section>
-
-        <article id="lit">
-            <h2> Lorem Ipsum </h2>
-            <div>
-                <p>Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognized it for one that he had himself presented many years before to Henry Jekyll.</p>
-                <p>“Is this Mr. Hyde a person of small stature?” he inquired.</p>
-                <p>“Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.</p>
-            </div>
-            
-        </article>
 
     </main>
 
