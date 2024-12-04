@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 </head>
 
 <!-- The body tag is what is shown to a visitor. -->
@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/final project logo.svg" alt="Logo Design for Me">
+                <img src="img/final project logo.png" alt="Logo Design for Me">
                 <h1>Web Dev I</h1>
             </div>
             <div class="navbar-links">
@@ -97,9 +97,8 @@
             <!-- Picture 2 -->
 
             <figure>
-                <!-- Need to add media state for phone screen sizes -->
-                <video controls width="640" height="360">
-                    <source src="img/r2d2.mp4" type="video/quicktime">
+                <video controls>
+                    <source src="img/r2d2.mp4">
                     Your browser does not support the video tag.
                 </video> 
                 <figcaption>
@@ -110,9 +109,8 @@
             <!-- Picture 3 -->
             
             <figure>
-                <!-- Need to add media state for phone screen sizes -->
-                <video controls width="640" height="360">
-                    <source src="img/japanese charizard.mp4" type="video/quicktime">
+                <video controls>
+                    <source src="img/japanese charizard.mp4">
                     Your browser does not support the video tag.
                 </video>                
                 <figcaption>
@@ -121,7 +119,7 @@
             </figure>
         </section>
 
-        <!-- REMOVE THIS OR CHANGE VIDEO TO SMTH ELSE-->
+        <!-- Take video of you showing off collection -->
 
         <section id="video">
             <h2>A Short Video:</h2>
@@ -138,11 +136,32 @@
         <!-- Blog Section -->
 
         <article id="lit">
-            <h2> Lorem Ipsum </h2>
+            <h2> Learn about CSS Animation! </h2>
             <div>
-                <p>Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognized it for one that he had himself presented many years before to Henry Jekyll.</p>
-                <p>“Is this Mr. Hyde a person of small stature?” he inquired.</p>
-                <p>“Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.</p>
+                <p>Learning CSS animation can be a thrilling experience, especially for those just starting out. As someone who has been exploring HTML and CSS for about a semester, I've found animations to be a game-changer in web design. They bring static pages to life, enhance user engagement, and add a professional touch to even simple websites.</p>
+                <h4>What is CSS Animation?</h4>
+                <p>CSS animations allow you to animate HTML elements without needing JavaScript. You can create transitions, transformations, and even complex movements using properties like animation-name, animation-duration, and keyframes. Unlike hover effects or transitions that occur when an element's state changes, animations can run automatically when the page loads, offering more control and flexibility.</p>
+                <h4>Key Concepts to Know</h4>
+                <p>Keyframes: These define the stages of an animation. You can control what an element looks like at different points by specifying percentages from 0% to 100%.Animation Properties: Key properties include: animation-name: Links the element to a set of keyframes. animation-duration: Specifies how long the animation runs. animation-iteration-count: Determines how many times the animation repeats, including the option for it to run infinitely. animation-direction: Controls whether the animation plays forward, backward, or alternates. For example, a simple bounce effect can be created using these properties:</p>
+                <code>@keyframes bounce {
+                    0%, 100% {
+                      transform: translateY(0);
+                    }
+                    50% {
+                      transform: translateY(-50px);
+                    }
+                  }
+                  
+                  .element {
+                    animation: bounce 1s infinite;
+                  }
+                </code>
+                <h4>Practical Uses and Examples</h4>
+                <p>CSS animations are incredibly versatile. They can be used for simple effects like fading in images or more complex movements like bouncing balls or sliding menus. For instance, hover animations on buttons can provide feedback to users, making interfaces more interactive and user-friendly. Another creative use is storytelling or brand expression. Companies often use animations to create engaging landing pages with elements that animate on scroll or load. This can help guide the user's attention and improve the overall experience.</p>
+                <h4>Tips for Beginners</h4>
+                <p>Start Small: Begin with basic animations like fades or color changes. Once you're comfortable, move on to more complex movements. Test in Different Browsers: Not all browsers handle animations the same way, so testing is crucial. Keep Performance in Mind: Too many animations can slow down your page, especially on mobile devices.</p>
+                <h4>Final Thoughts</h4>
+                <p>CSS animations are an exciting tool for any web developer. They offer endless possibilities for creativity and interactivity. As a student who is new and learning, I've found them to be a fun way to level up my projects. They're not only about making things look cool but also about enhancing the user experience and telling a story through motion. For more in-depth tutorials/information, I recommend checking out resources like W3Schools, CSS Wolf, and Slider Revolution, which provided great material to help me complete this!</p>
             </div>  
         </article>
 
@@ -210,6 +229,7 @@
 
 <footer>
     <h1>Henry Petrillo - &copy; 2024 - All Rights Reserved.</h1>
+    <h1>GitHub: https://github.com/RVCC-IDMX/about-me-henrypetrillo</h1>
 </footer>
 
 </html>

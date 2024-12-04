@@ -88,7 +88,11 @@ body {
 
 #gallery figure {
     text-align: center;
-    
+}
+
+#gallery video {
+    max-width: 100%;
+    aspect-ratio: 16/9;
 }
 
 #contact {
@@ -192,12 +196,21 @@ footer {
     background-color: #45a049;
 }
 
+code {
+    white-space: pre;
+}
+
 /* For iPhone 6 (small screens) */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     #contactForm input, 
     #contactForm textarea, 
     #contactForm button {
         font-size: 14px;
+    }
+
+    #video {
+        width: 300px;
+        max-width: 100%;
     }
 }
 
