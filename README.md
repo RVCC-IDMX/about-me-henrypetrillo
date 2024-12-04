@@ -2,6 +2,8 @@
 
 By Henry Petrillo  
 
+![alt text](<img/final project logo.png>)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f61160f9-3926-45cf-a5fd-68e20b49c232/deploy-status)](https://app.netlify.com/sites/about-me-henrypetrillo/deploys)  
 
 ---
@@ -31,6 +33,9 @@ Throughout the development of this website, I gained valuable experience and tec
 
 - **Fair Use and Ethical Practices**:  
   Ensuring compliance with copyright laws and ethical standards, such as crediting sources and using licensed assets responsibly.
+
+- **CSS Animation**:
+  CSS animation allows you to create smooth transitions and movements on web elements without using JavaScript. By defining keyframes and properties like duration, timing, and easing, you can bring your website to life with effects like fading, sliding, or rotating.
 
 ---
 
@@ -69,5 +74,10 @@ The website uses some colors I thought complimented each other well that I found
 - ![#21284A](https://via.placeholder.com/20/21284A/FFFFFF?text=+)  
 
 ---
+
+Sources:
+https://www.sliderrevolution.com/design/css-animations/
+https://www.w3schools.com/css/css3_animations.asp
+https://csswolf.com/css-animations-for-beginners-ultimate-guide/
 
 All rights reserved. © 2024 Henry Petrillo  
