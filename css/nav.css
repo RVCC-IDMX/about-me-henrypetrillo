@@ -62,7 +62,7 @@ main {
 */
 
 .navbar-links a {
-    color: #21284A;
+    color: #F5BE1B;
     background-color: #4757A1;
     font-size: 1.5rem;
     padding: 1rem 1.25rem;
@@ -73,7 +73,7 @@ main {
 
 .navbar-links a:hover,
 .navbar-links a:focus {
-    color: #4757A1;
+    color: #F5BE1B;
     background-color: #21284A;
     border-radius: 10px;
     outline: none;

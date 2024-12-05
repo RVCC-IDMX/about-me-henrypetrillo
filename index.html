@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
 </head>
 
 <!-- The body tag is what is shown to a visitor. -->
@@ -20,9 +21,19 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="img/bob.svg" alt="A blue origami bird">
+                <img src="img/final project logo.png" alt="Logo Design for Me">
                 <h1>Web Dev I</h1>
             </div>
+
+            <!-- Hamburger Icon -->
+            <input type="checkbox" id="toggle" class="toggle-checkbox">
+            <label for="toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navbar Links -->
             <div class="navbar-links">
                 <ul>
                     <li><a href="#bio">Bio</a></li>
@@ -41,7 +52,7 @@
             Shows profile image, name & location. -->
         <section id="hero">
 
-            <img src="img/avataaars.png" alt="Avatar picture of me">
+            <img src="img/profile pic.PNG" alt="Picture of me">
             <div>
                 <p>Henry Petrillo</p>
                 <p>Gladstone, NJ</p>
@@ -54,19 +65,26 @@
 
             <div>
 
-                <p>I want to be...</p>
-                <p>a backend developer for a large scale coorporation.</p>
-                <p>One day I hope to be able to live comfortably while</p>
-                <p>working from home with my future dog!</p>
+                <p>I am a 22 year old boy from Basking Ridge NJ. I graduated from Ridge High School in 2020. I hope to use my education to get a job as a software developer either remote or in New York City. Currently I enjoy doing things like gaming, football, and collecting. Learn more about them below:</p>
 
             </div>
         </section>
 
         <section id="hobbies">
             <h2>My Hobbies</h2>
-            <ul><li>Hobby 1</li>
-                <li>Hobby 2</li>
-                <li>Hobby 3</li>
+            <ul>
+                <li>
+                    <p><strong>Gaming</strong></p>
+                    <p>I enjoy a variety of video game genres. I mainly play FPS games, MOBAs, and RPG games. Some recent games that I've played include the new Call of Duty: Black Ops 6, Smite, and Pokemon Legends Arceus. I pride myself on being able to complete games, so I mainly aim for the completionist achievement/100% completion of the game!</p>
+                </li>
+                <li>
+                    <p><strong>Football</strong></p>
+                    <p>I am a diehard Green Bay Packers fan. Every week I am strapped to the couch watching them play, and I will always be a a fan win or lose. Some of my favorite players are Jordan Love, Josh Jacobs and Xavier McKinney. My favorite memory involving the team is going to Lambeau Field with my Aunt and watched Aaron Rodgers blow out the Colts!</p>
+                </li>
+                <li>
+                    <p><strong>Collecting</strong></p>
+                    <p>I love to collect a variety of unique items/collectables that relate to my other hobbies. I am a big Pokemon card and video game collector. I have plenty of vintage games, consoles, booklets and more.Collecting is one of the hobbies I like the most because it lets me enjoy a lot of things that my child self could not.</p>
+                </li>
             </ul>    
         </section>
 
@@ -77,41 +95,48 @@
             
             <!-- Picture 1 -->
 
-            <hr color="#B89B44">
             <figure>
-                <img src="img/yellowstone-640w.jpg" alt="A scene from Yellowstone National Park.">
+
+                <!-- Need to add a hover effect for image -->
+                <img src="img/blaines charizard.JPG" alt="A picture of a Blaine's Charizard Pokemon Card.">
                 <figcaption>
-                    Yellowstone National Park
+                    Here's a cool photo of one of my Charizards!
                 </figcaption>
             </figure>
 
-            <!-- Picture 2 -->
+            <!-- Video 1 -->
 
-            <hr color="#B89B44">
             <figure>
-                <img src="img/yellowstone-640w.jpg" alt="A scene from Yellowstone National Park.">
+                <video controls>
+                    <source src="img/r2d2.mp4">
+                    Your browser does not support the video tag.
+                </video> 
                 <figcaption>
-                    Yellowstone National Park
+                    Enjoy this video of my fully operational R2D2 from Star Wars!
                 </figcaption>
             </figure>
 
-            <!-- Picture 3 -->
-
-            <hr color="#B89B44">
+            <!-- Video 2 -->
+            
             <figure>
-                <img src="img/yellowstone-640w.jpg" alt="A scene from Yellowstone National Park.">
+                <video controls>
+                    <source src="img/japanese charizard.mp4">
+                    Your browser does not support the video tag.
+                </video>                
                 <figcaption>
-                    Yellowstone National Park
+                    The first Japanese Charizard card from the Pokemon TCG! From my personal collection.
                 </figcaption>
             </figure>
         </section>
 
+        <!-- iFrame Section -->
+
         <section id="video">
-            <h2>A Short Video:</h2>
+            <h2>Sneak Peak at my Collection!</h2>
             <div id="videoContainer">
                 <iframe
                     id="myVideo"
-                    src="https://www.youtube.com/embed/herRuccntNE?si=CoVgOsyOw7p61H8y" title="YouTube video player" frameborder="0"
+                    src="https://www.youtube.com/embed/78oRRoxcDWk?si=qirvn-4K7uK6FtkE" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
                     ></iframe>
@@ -121,11 +146,19 @@
         <!-- Blog Section -->
 
         <article id="lit">
-            <h2> Lorem Ipsum </h2>
+            <h2> Learn about CSS Animation! </h2>
             <div>
-                <p>Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognized it for one that he had himself presented many years before to Henry Jekyll.</p>
-                <p>“Is this Mr. Hyde a person of small stature?” he inquired.</p>
-                <p>“Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.</p>
+                <p>Learning CSS animation can be a thrilling experience, especially for those just starting out. As someone who has been exploring HTML and CSS for about a semester, I've found animations to be a game-changer in web design. They bring static pages to life, enhance user engagement, and add a professional touch to even simple websites.</p>
+                <h4>What is CSS Animation?</h4>
+                <p>CSS animations allow you to animate HTML elements without needing JavaScript. You can create transitions, transformations, and even complex movements using properties like animation-name, animation-duration, and keyframes. Unlike hover effects or transitions that occur when an element's state changes, animations can run automatically when the page loads, offering more control and flexibility.</p>
+                <h4>Key Concepts to Know</h4>
+                <p>Keyframes: These define the stages of an animation. You can control what an element looks like at different points by specifying percentages from 0% to 100%.Animation Properties: Key properties include: animation-name: Links the element to a set of keyframes. animation-duration: Specifies how long the animation runs. animation-iteration-count: Determines how many times the animation repeats, including the option for it to run infinitely. animation-direction: Controls whether the animation plays forward, backward, or alternates.
+                <h4>Practical Uses and Examples</h4>
+                <p>CSS animations are incredibly versatile. They can be used for simple effects like fading in images or more complex movements like bouncing balls or sliding menus. For instance, hover animations on buttons can provide feedback to users, making interfaces more interactive and user-friendly. Another creative use is storytelling or brand expression. Companies often use animations to create engaging landing pages with elements that animate on scroll or load. This can help guide the user's attention and improve the overall experience. A simple example that I used within my own project was to make an animation for the Hamburger Icon. I made the icon transform into an 'X' when checked, then it returns to normal when unchecked. Simple interactions such as this are what create life inside a website and keep users engaged.</p>
+                <h4>Tips for Beginners</h4>
+                <p>Start Small: Begin with basic animations like fades or color changes. Once you're comfortable, move on to more complex movements. Test in Different Browsers: Not all browsers handle animations the same way, so testing is crucial. Keep Performance in Mind: Too many animations can slow down your page, especially on mobile devices.</p>
+                <h4>Final Thoughts</h4>
+                <p>CSS animations are an exciting tool for any web developer. They offer endless possibilities for creativity and interactivity. As a student who is new and learning, I've found them to be a fun way to level up my projects. They're not only about making things look cool but also about enhancing the user experience and telling a story through motion. For more in-depth tutorials/information, I recommend checking out resources like W3Schools, CSS Wolf, and Slider Revolution, which provided great material to help me complete this!</p>
             </div>  
         </article>
 
@@ -193,6 +226,7 @@
 
 <footer>
     <h1>Henry Petrillo - &copy; 2024 - All Rights Reserved.</h1>
+    <h1>GitHub: https://github.com/RVCC-IDMX/about-me-henrypetrillo</h1>
 </footer>
 
 </html>
