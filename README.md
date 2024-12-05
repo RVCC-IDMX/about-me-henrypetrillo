@@ -37,6 +37,9 @@ Throughout the development of this website, I gained valuable experience and tec
 - **CSS Animation**:
   CSS animation allows you to create smooth transitions and movements on web elements without using JavaScript. By defining keyframes and properties like duration, timing, and easing, you can bring your website to life with effects like fading, sliding, or rotating.
 
+- **Nav Bar**:
+  Created a Hamburger Icon for Mobile Users. I also added a cool animation where the hamburger icon animates itself into an 'X' when selected, then returns back to normal when unchecked.
+
 ---
 
 ## Color Scheme  

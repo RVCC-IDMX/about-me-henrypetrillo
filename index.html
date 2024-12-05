@@ -24,6 +24,16 @@
                 <img src="img/final project logo.png" alt="Logo Design for Me">
                 <h1>Web Dev I</h1>
             </div>
+
+            <!-- Hamburger Icon -->
+            <input type="checkbox" id="toggle" class="toggle-checkbox">
+            <label for="toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Navbar Links -->
             <div class="navbar-links">
                 <ul>
                     <li><a href="#bio">Bio</a></li>
@@ -142,22 +152,9 @@
                 <h4>What is CSS Animation?</h4>
                 <p>CSS animations allow you to animate HTML elements without needing JavaScript. You can create transitions, transformations, and even complex movements using properties like animation-name, animation-duration, and keyframes. Unlike hover effects or transitions that occur when an element's state changes, animations can run automatically when the page loads, offering more control and flexibility.</p>
                 <h4>Key Concepts to Know</h4>
-                <p>Keyframes: These define the stages of an animation. You can control what an element looks like at different points by specifying percentages from 0% to 100%.Animation Properties: Key properties include: animation-name: Links the element to a set of keyframes. animation-duration: Specifies how long the animation runs. animation-iteration-count: Determines how many times the animation repeats, including the option for it to run infinitely. animation-direction: Controls whether the animation plays forward, backward, or alternates. For example, a simple bounce effect can be created using these properties:</p>
-                <code>@keyframes bounce {
-                    0%, 100% {
-                      transform: translateY(0);
-                    }
-                    50% {
-                      transform: translateY(-50px);
-                    }
-                  }
-                  
-                  .element {
-                    animation: bounce 1s infinite;
-                  }
-                </code>
+                <p>Keyframes: These define the stages of an animation. You can control what an element looks like at different points by specifying percentages from 0% to 100%.Animation Properties: Key properties include: animation-name: Links the element to a set of keyframes. animation-duration: Specifies how long the animation runs. animation-iteration-count: Determines how many times the animation repeats, including the option for it to run infinitely. animation-direction: Controls whether the animation plays forward, backward, or alternates.
                 <h4>Practical Uses and Examples</h4>
-                <p>CSS animations are incredibly versatile. They can be used for simple effects like fading in images or more complex movements like bouncing balls or sliding menus. For instance, hover animations on buttons can provide feedback to users, making interfaces more interactive and user-friendly. Another creative use is storytelling or brand expression. Companies often use animations to create engaging landing pages with elements that animate on scroll or load. This can help guide the user's attention and improve the overall experience.</p>
+                <p>CSS animations are incredibly versatile. They can be used for simple effects like fading in images or more complex movements like bouncing balls or sliding menus. For instance, hover animations on buttons can provide feedback to users, making interfaces more interactive and user-friendly. Another creative use is storytelling or brand expression. Companies often use animations to create engaging landing pages with elements that animate on scroll or load. This can help guide the user's attention and improve the overall experience. A simple example that I used within my own project was to make an animation for the Hamburger Icon. I made the icon transform into an 'X' when checked, then it returns to normal when unchecked. Simple interactions such as this are what create life inside a website and keep users engaged.</p>
                 <h4>Tips for Beginners</h4>
                 <p>Start Small: Begin with basic animations like fades or color changes. Once you're comfortable, move on to more complex movements. Test in Different Browsers: Not all browsers handle animations the same way, so testing is crucial. Keep Performance in Mind: Too many animations can slow down your page, especially on mobile devices.</p>
                 <h4>Final Thoughts</h4>
